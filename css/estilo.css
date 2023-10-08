@@ -1,0 +1,730 @@
+*{
+    margin: 0;
+}
+
+#corpo{
+    background-image: url('../Imagens/Sett/sett.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-height: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+}
+
+#miolo{
+    background-image: url('../Imagens/Sett/sett.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-height: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+}
+
+
+
+header{
+    min-width: 100%;
+    height: 100px;
+    background-color: black;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+header h2{
+    font-size: 20px;
+    box-sizing: border-box;
+}
+
+header img{
+    width: 30px;
+    height: 30px;
+    border-radius: 10px;
+}
+
+#caixa1{
+    box-sizing: border-box;
+    display: inline-block;
+    width: 350px;
+    background: linear-gradient(to right, rgba(0, 0, 0, 20), rgba(255, 255, 255, 0));
+    height: 800px;
+    padding: 40px;
+    text-align: center;
+}
+
+#caixa1 p{
+    font-size: 30px;
+    color: white;
+    box-sizing: border-box;
+    font-size: 25px;
+}
+
+#skills{
+    float: left;
+    height: 100%;
+    max-width: 20%;
+    box-sizing: border-box;
+}
+
+#skills button{
+    box-sizing: border-box;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    width: 80px;
+    height: 80px;
+}
+/* Vladmir */
+#skillvlad1{
+    background-image: url("../Imagens/Vladmir/VladimirP.png");
+    background-size: cover;
+    border: none;
+    border-radius: 20px;
+    box-sizing: border-box;
+    transition: transform 0.3s ease;
+}
+
+#skillvlad1:hover{
+    transform: scale(1.2);
+    box-shadow: 0px 5px 5px black;
+    border: yellow solid 2px;
+    cursor: pointer;
+}
+
+#skillvlad2{
+    background-image: url("../Imagens/Vladmir/VladimirQ.png");
+    background-size: cover;
+    border: none;
+    border-radius: 20px;
+    box-sizing: border-box;
+    transition: transform 0.3s ease;
+}
+
+#skillvlad2:hover{
+    transform: scale(1.2);
+    box-shadow: 0px 5px 5px black;
+    border: yellow solid 2px;
+    cursor: pointer;
+}
+
+#skillvlad3{
+    background-image: url("../Imagens/Vladmir/VladimirSanguinePool.png");
+    background-size: cover;
+    border: none;
+    border-radius: 20px;
+    box-sizing: border-box;
+    transition: transform 0.3s ease;
+}
+
+#skillvlad3:hover{
+    transform: scale(1.2);
+    box-shadow: 0px 5px 5px black;
+    border: yellow solid 2px;
+    cursor: pointer;
+}
+
+#skillvlad4{
+    background-image: url("../Imagens/Vladmir/VladimirE.png");
+    background-size: cover;
+    border: none;
+    border-radius: 20px;
+    box-sizing: border-box;
+    transition: transform 0.3s ease;
+}
+
+#skillvlad4:hover{
+    transform: scale(1.2);
+    box-shadow: 0px 5px 5px black;
+    border: yellow solid 2px;
+    cursor: pointer;
+}
+
+#skillvlad5{
+    background-image: url("../Imagens/Vladmir/VladimirR.png");
+    background-size: cover;
+    border: none;
+    border-radius: 20px;
+    box-sizing: border-box;
+    transition: transform 0.3s ease;
+}
+
+#skillvlad5:hover{
+    transform: scale(1.2);
+    box-shadow: 0px 5px 5px black;
+    border: yellow solid 2px;
+    cursor: pointer;
+}
+
+/* Sett */
+
+#skillsett1:hover{
+    transform: scale(1.2);
+    box-shadow: 0px 5px 5px black;
+    border: yellow solid 2px;
+    cursor: pointer;
+}
+#skillsett2:hover{
+    transform: scale(1.2);
+    box-shadow: 0px 5px 5px black;
+    border: yellow solid 2px;
+    cursor: pointer;
+}
+#skillsett3:hover{
+    transform: scale(1.2);
+    box-shadow: 0px 5px 5px black;
+    border: yellow solid 2px;
+    cursor: pointer;
+}
+#skillsett4:hover{
+    transform: scale(1.2);
+    box-shadow: 0px 5px 5px black;
+    border: yellow solid 2px;
+    cursor: pointer;
+}
+#skillsett5:hover{
+    transform: scale(1.2);
+    box-shadow: 0px 5px 5px black;
+    border: yellow solid 2px;
+    cursor: pointer;
+}
+
+#skillsett1{
+    background-image: url("../Imagens/Sett/settP.png");
+    background-size: cover;
+    border: none;
+    border-radius: 20px;
+    box-sizing: border-box;
+    transition: transform 0.3s ease;
+}
+
+#skillsett2{
+    background-image: url(../Imagens/Sett/settQ.png);
+    background-size: cover;
+    border: none;
+    border-radius: 20px;
+    box-sizing: border-box;
+    transition: transform 0.3s ease;
+}
+
+#skillsett3{
+    background-image: url(../Imagens/Sett/settW.png);
+    background-size: cover;
+    border: none;
+    border-radius: 20px;
+    box-sizing: border-box;
+    transition: transform 0.3s ease;
+}
+
+#skillsett4{
+    background-image: url(../Imagens/Sett/settE.png);
+    background-size: cover;
+    border: none;
+    border-radius: 20px;
+    box-sizing: border-box;
+    transition: transform 0.3s ease;
+}
+
+#skillsett5{
+    background-image: url(../Imagens/Sett/settR.png);
+    background-size: cover;
+    border: none;
+    border-radius: 20px;
+    box-sizing: border-box;
+    transition: transform 0.3s ease;
+}
+
+/* leblanc */
+
+#skillLeblanc1{
+    background-image: url("../Imagens/Leblanc/LeBlancP.png");
+    background-size: cover;
+    border: none;
+    border-radius: 20px;
+    box-sizing: border-box;
+    transition: transform 0.3s ease;
+}
+
+#skillLeblanc1:hover{
+    transform: scale(1.2);
+    box-shadow: 0px 5px 5px black;
+    border: yellow solid 2px;
+    cursor: pointer;
+}
+
+#skillLeblanc2{
+    background-image: url("../Imagens/Leblanc/LeblancQ.png");
+    background-size: cover;
+    border: none;
+    border-radius: 20px;
+    box-sizing: border-box;
+    transition: transform 0.3s ease;
+}
+
+#skillLeblanc2:hover{
+    transform: scale(1.2);
+    box-shadow: 0px 5px 5px black;
+    border: yellow solid 2px;
+    cursor: pointer;
+}
+
+#skillLeblanc3{
+    background-image: url("../Imagens/Leblanc/LeblancW.png");
+    background-size: cover;
+    border: none;
+    border-radius: 20px;
+    box-sizing: border-box;
+    transition: transform 0.3s ease;
+}
+
+#skillLeblanc3:hover{
+    transform: scale(1.2);
+    box-shadow: 0px 5px 5px black;
+    border: yellow solid 2px;
+    cursor: pointer;
+}
+
+#skillLeblanc4{
+    background-image: url("../Imagens/Leblanc/LeblancE.png");
+    background-size: cover;
+    border: none;
+    border-radius: 20px;
+    box-sizing: border-box;
+    transition: transform 0.3s ease;
+}
+
+#skillLeblanc4:hover{
+    transform: scale(1.2);
+    box-shadow: 0px 5px 5px black;
+    border: yellow solid 2px;
+    cursor: pointer;
+}
+
+#skillLeblanc5{
+    background-image: url("../Imagens/Leblanc/LeblancR.png");
+    background-size: cover;
+    border: none;
+    border-radius: 20px;
+    box-sizing: border-box;
+    transition: transform 0.3s ease;
+}
+
+#skillLeblanc5:hover{
+    transform: scale(1.2);
+    box-shadow: 0px 5px 5px black;
+    border: yellow solid 2px;
+    cursor: pointer;
+}
+/* Darius */
+
+#skilldarius1{
+    background-image: url("../Imagens/Darius/DariusP.png");
+    background-size: cover;
+    border: none;
+    border-radius: 20px;
+    box-sizing: border-box;
+    transition: transform 0.3s ease;
+}
+
+#skilldarius1:hover{
+    transform: scale(1.2);
+    box-shadow: 0px 5px 5px black;
+    border: yellow solid 2px;
+    cursor: pointer;
+}
+
+#skilldarius2{
+    background-image: url("../Imagens/Darius/DariusQ.png");
+    background-size: cover;
+    border: none;
+    border-radius: 20px;
+    box-sizing: border-box;
+    transition: transform 0.3s ease;
+}
+
+#skilldarius2:hover{
+    transform: scale(1.2);
+    box-shadow: 0px 5px 5px black;
+    border: yellow solid 2px;
+    cursor: pointer;
+}
+
+#skilldarius3{
+    background-image: url("../Imagens/Darius/DariusW.png");
+    background-size: cover;
+    border: none;
+    border-radius: 20px;
+    box-sizing: border-box;
+    transition: transform 0.3s ease;
+}
+
+#skilldarius3:hover{
+    transform: scale(1.2);
+    box-shadow: 0px 5px 5px black;
+    border: yellow solid 2px;
+    cursor: pointer;
+}
+
+#skilldarius4{
+    background-image: url("../Imagens/Darius/DariusE.png");
+    background-size: cover;
+    border: none;
+    border-radius: 20px;
+    box-sizing: border-box;
+    transition: transform 0.3s ease;
+}
+
+#skilldarius4:hover{
+    transform: scale(1.2);
+    box-shadow: 0px 5px 5px black;
+    border: yellow solid 2px;
+    cursor: pointer;
+}
+
+#skilldarius5{
+    background-image: url("../Imagens/Darius/DariusR.png");
+    background-size: cover;
+    border: none;
+    border-radius: 20px;
+    box-sizing: border-box;
+    transition: transform 0.3s ease;
+}
+
+#skilldarius5:hover{
+    transform: scale(1.2);
+    box-shadow: 0px 5px 5px black;
+    border: yellow solid 2px;
+    cursor: pointer;
+}
+
+/* Samira */
+
+#skillsamira1{
+    background-image: url("../Imagens/Samira/SamiraP.png");
+    background-size: cover;
+    border: none;
+    border-radius: 20px;
+    box-sizing: border-box;
+    transition: transform 0.3s ease;
+}
+
+#skillsamira1:hover{
+    transform: scale(1.2);
+    box-shadow: 0px 5px 5px black;
+    border: yellow solid 2px;
+    cursor: pointer;
+}
+
+#skillsamira2{
+    background-image: url("../Imagens/Samira/SamiraQ.png");
+    background-size: cover;
+    border: none;
+    border-radius: 20px;
+    box-sizing: border-box;
+    transition: transform 0.3s ease;
+}
+
+#skillsamira2:hover{
+    transform: scale(1.2);
+    box-shadow: 0px 5px 5px black;
+    border: yellow solid 2px;
+    cursor: pointer;
+}
+
+#skillsamira3{
+    background-image: url("../Imagens/Samira/SamiraW.png");
+    background-size: cover;
+    border: none;
+    border-radius: 20px;
+    box-sizing: border-box;
+    transition: transform 0.3s ease;
+}
+
+#skillsamira3:hover{
+    transform: scale(1.2);
+    box-shadow: 0px 5px 5px black;
+    border: yellow solid 2px;
+    cursor: pointer;
+}
+
+#skillsamira4{
+    background-image: url("../Imagens/Samira/SamiraE.png");
+    background-size: cover;
+    border: none;
+    border-radius: 20px;
+    box-sizing: border-box;
+    transition: transform 0.3s ease;
+}
+
+#skillsamira4:hover{
+    transform: scale(1.2);
+    box-shadow: 0px 5px 5px black;
+    border: yellow solid 2px;
+    cursor: pointer;
+}
+
+#skillsamira5{
+    background-image: url("../Imagens/Samira/SamiraR.png");
+    background-size: cover;
+    border: none;
+    border-radius: 20px;
+    box-sizing: border-box;
+    transition: transform 0.3s ease;
+}
+
+#skillsamira5:hover{
+    transform: scale(1.2);
+    box-shadow: 0px 5px 5px black;
+    border: yellow solid 2px;
+    cursor: pointer;
+}
+
+#skillsDesc{
+    display: right;
+    color: white;
+    height: 100%;
+    max-width: 80%;
+    font-size: 40px;
+    box-sizing: border-box;
+    padding: 40px;
+}
+
+#skillsDesc p{
+    text-align: center;
+    font-size: 30px;
+}
+
+#skillsDesc h2{
+    box-sizing: border-box;
+    text-align: center;
+    font-size: 38px;
+    margin-bottom: 10px;
+}
+
+#caixa2{
+    background: linear-gradient(to left, rgba(0, 0, 0, 10), rgba(255, 255, 255, 0));
+    width: 400px;
+    height: 800px;
+    float: right;
+    box-sizing: border-box;
+}
+
+#skillsDesc{
+    box-sizing: border-box;
+    display: inline-block;
+}
+
+#caixa3{
+    box-sizing: border-box;
+    text-align: center;
+    background-color: black;
+    display: block;
+    padding: 10px;
+    box-shadow: 5px 0px 5px 15px black;
+}
+
+.btnchar{
+    box-sizing: border-box;
+    border-radius: 50px;
+    box-shadow: 0px 0 5px;
+    width: 80px;
+    height: 80px;
+    border: none;
+    margin-left:60px;
+    margin-right:60px;
+}
+
+#btnsett{
+    background-image: url("../Imagens/miniicons/minisett.png");
+    background-size: cover;
+}
+
+#btnsamira{
+    background-image: url("../Imagens/miniicons/minisamira.jpg");
+    background-size: cover;
+}
+
+#btndarius{
+    background-image: url("../Imagens/miniicons/minidariuslol.jpg");
+    background-size: cover;
+}
+
+#btnvlad{
+    background-image: url("../Imagens/miniicons/minivlad.jpg");
+    background-size: cover;
+}
+
+#btnleblanc{
+    background-image: url("../Imagens/miniicons/minileblanc.jpg");
+    background-size: cover;
+}
+
+.btnchar:hover{
+    box-sizing: border-box;
+    border: yellow solid 2px;
+    cursor: pointer;
+    box-shadow: none;
+}
+
+#nomechamp{
+    color: white;
+    font-size: 40px;
+}
+
+#descChamp{
+    color: white;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+@media(max-width: 1380px){
+    header{
+        min-width: 100%;
+        height: 80px;
+        background-color: black;
+        color: white;
+        padding: 20px;
+        text-align: center;
+        box-sizing: border-box;
+    }
+    
+    header h2{
+        font-size: 20px;
+        box-sizing: border-box;
+    }
+    
+    header img{
+        width: 30px;
+        height: 30px;
+        border-radius: 10px;
+    }
+    
+    #caixa1{
+        box-sizing: border-box;
+        display: inline-block;
+        width: 250px;
+        background: linear-gradient(to right, rgba(0, 0, 0, 20), rgba(255, 255, 255, 0));
+        height: 800px;
+        padding: 40px;
+        text-align: center;
+    }
+    
+    #caixa1 p{
+        color: white;
+        box-sizing: border-box;
+        font-size: 18px;
+    }
+    
+    #skills{
+        float: left;
+        height: 100%;
+        max-width: 20%;
+        box-sizing: border-box;
+    }
+    
+    #skills button{
+        box-sizing: border-box;
+        margin-top: 40px;
+        margin-bottom: 40px;
+        width: 60px;
+        height: 60px;
+    }
+
+    #skillsDesc{
+        display: right;
+        color: white;
+        height: 100%;
+        max-width: 80%;
+        font-size: 40px;
+        box-sizing: border-box;
+        padding: 40px;
+    }
+    
+    #skillsDesc p{
+        text-align: center;
+        font-size: 20px;
+    }
+    
+    #skillsDesc h2{
+        box-sizing: border-box;
+        text-align: center;
+        font-size: 24px;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+    
+    #caixa2{
+        background: linear-gradient(to left, rgba(0, 0, 0, 10), rgba(255, 255, 255, 0));
+        width: 280px;
+        height: 800px;
+        float: right;
+        box-sizing: border-box;
+    }
+    
+    #skillsDesc{
+        box-sizing: border-box;
+        display: inline-block;
+    }
+    
+    #caixa3{
+        box-sizing: border-box;
+        text-align: center;
+        background-color: black;
+        display: block;
+        padding: 10px;
+        box-shadow: 5px 0px 5px 15px black;
+    }
+    
+    .btnchar{
+        box-sizing: border-box;
+        border-radius: 50px;
+        box-shadow: 0px 0 5px;
+        width: 80px;
+        height: 80px;
+        border: none;
+        margin-left:60px;
+        margin-right:60px;
+    }
+    
+    #btnsett{
+        background-image: url("../Imagens/miniicons/minisett.png");
+        background-size: cover;
+    }
+    
+    #btnsamira{
+        background-image: url("../Imagens/miniicons/minisamira.jpg");
+        background-size: cover;
+    }
+    
+    #btndarius{
+        background-image: url("../Imagens/miniicons/minidariuslol.jpg");
+        background-size: cover;
+    }
+    
+    #btnvlad{
+        background-image: url("../Imagens/miniicons/minivlad.jpg");
+        background-size: cover;
+    }
+    
+    #btnleblanc{
+        background-image: url("../Imagens/miniicons/minileblanc.jpg");
+        background-size: cover;
+    }
+    
+    .btnchar:hover{
+        box-sizing: border-box;
+        border: yellow solid 2px;
+        cursor: pointer;
+        box-shadow: none;
+    }
+    
+    #nomechamp{
+        color: white;
+        font-size: 40px;
+    }
+    
+    #descChamp{
+        color: white;
+        font-size: 18px;
+        margin-bottom: 20px;
+    }
+}
